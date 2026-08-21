@@ -1,251 +1,403 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none"
-     xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="1250" viewBox="0 0 1400 1250" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B0D0E"/>
-      <stop offset="1" stop-color="#111416"/>
-    </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+```
+<!-- Background -->
+<linearGradient id="bg" x1="0" y1="0" x2="1400" y2="1250"
+                gradientUnits="userSpaceOnUse">
+  <stop stop-color="#0A0C0D"/>
+  <stop offset="1" stop-color="#101416"/>
+</linearGradient>
 
-    <style>
-      .mono {
-        font-family: "JetBrains Mono", "Fira Code", "DejaVu Sans Mono", monospace;
-      }
+<!-- Subtle glow -->
+<filter id="softGlow">
+  <feGaussianBlur stdDeviation="2.5" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
 
-      .primary {
-        fill: #E6E6E6;
-      }
+<style>
+  .mono {
+    font-family: "JetBrains Mono", "Fira Code", "Cascadia Code",
+                 "DejaVu Sans Mono", monospace;
+  }
 
-      .secondary {
-        fill: #858B91;
-      }
+  .title {
+    fill: #F2F4F3;
+    font-family: "JetBrains Mono", "Fira Code",
+                 "DejaVu Sans Mono", monospace;
+    font-weight: 600;
+  }
 
-      .accent {
-        fill: #7CFFB2;
-      }
+  .primary {
+    fill: #E2E6E4;
+  }
 
-      .line {
-        stroke: #292D32;
-        stroke-width: 1;
-      }
-    </style>
+  .secondary {
+    fill: #8A9290;
+  }
 
-    <!-- Blinking cursor -->
-    <g id="cursor">
-      <rect x="0" y="0" width="9" height="18" rx="1" fill="#7CFFB2">
-        <animate
-          attributeName="opacity"
-          values="1;0;1"
-          dur="1.1s"
-          repeatCount="indefinite"/>
-      </rect>
-    </g>
+  .muted {
+    fill: #5F6865;
+  }
 
-    <!-- Pulsing status indicator -->
-    <circle cx="0" cy="0" r="4" fill="#7CFFB2">
-      <animate
-        attributeName="opacity"
-        values="1;0.35;1"
-        dur="2s"
-        repeatCount="indefinite"/>
-    </circle>
+  .accent {
+    fill: #7CFFB2;
+  }
+
+  .accentStroke {
+    stroke: #7CFFB2;
+  }
+
+  .border {
+    stroke: #292F30;
+  }
+</style>
+
+<!-- Cursor -->
+<rect id="cursor"
+      x="0" y="0"
+      width="10" height="21"
+      rx="1"
+      fill="#7CFFB2">
+  <animate
+    attributeName="opacity"
+    values="1;0;1"
+    dur="1.1s"
+    repeatCount="indefinite"/>
+</rect>
+```
+
   </defs>
 
-
-  <!-- ========================================================= -->
-  <!-- BACKGROUND                                                -->
   <!-- ========================================================= -->
 
-  <rect width="1200" height="340" rx="8" fill="url(#bg)"/>
-
-  <!-- Terminal border -->
-  <rect x="1" y="1" width="1198" height="338" rx="8"
-        stroke="#292D32"
-        stroke-width="1"
-        fill="none"/>
-
+  <!-- TERMINAL WINDOW                                           -->
 
   <!-- ========================================================= -->
-  <!-- TERMINAL TITLE BAR                                        -->
-  <!-- ========================================================= -->
 
-  <line x1="1" y1="44" x2="1199" y2="44" class="line"/>
+  <rect width="1400" height="1250" rx="10" fill="url(#bg)"/>
 
-  <!-- Window controls -->
-  <circle cx="23" cy="22" r="4" fill="#3A3F44"/>
-  <circle cx="39" cy="22" r="4" fill="#3A3F44"/>
-  <circle cx="55" cy="22" r="4" fill="#3A3F44"/>
-
-  <!-- Terminal title -->
-  <text x="600" y="27"
-        text-anchor="middle"
-        class="mono secondary"
-        font-size="13">
-    kyro@bazzite: ~
-  </text>
-
-  <!-- Online indicator -->
-  <g transform="translate(1127 22)">
-    <circle cx="0" cy="0" r="4" fill="#7CFFB2">
-      <animate
-        attributeName="opacity"
-        values="1;0.35;1"
-        dur="2s"
-        repeatCount="indefinite"/>
-    </circle>
-
-    <text x="12" y="5"
-          class="mono secondary"
-          font-size="11">
-      ONLINE
-    </text>
-  </g>
-
+<rect x="1" y="1"
+     width="1398"
+     height="1248"
+     rx="10"
+     class="border"
+     stroke-width="1"
+     fill="none"/>
 
   <!-- ========================================================= -->
-  <!-- BOOT TEXT                                                 -->
-  <!-- ========================================================= -->
 
-  <text x="55" y="78"
-        class="mono secondary"
-        font-size="12">
-    $ ./profile --initialize
-  </text>
-
-  <text x="55" y="101"
-        class="mono secondary"
-        font-size="11"
-        opacity="0">
-
-    [ OK ] developer environment
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1"
-      keyTimes="0;0.18;0.25"
-      dur="3s"
-      fill="freeze"/>
-  </text>
-
-  <text x="55" y="119"
-        class="mono secondary"
-        font-size="11"
-        opacity="0">
-
-    [ OK ] project registry
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1"
-      keyTimes="0;0.25;0.32"
-      dur="3s"
-      fill="freeze"/>
-  </text>
-
-  <text x="55" y="137"
-        class="mono secondary"
-        font-size="11"
-        opacity="0">
-
-    [ OK ] creative modules
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1"
-      keyTimes="0;0.32;0.39"
-      dur="3s"
-      fill="freeze"/>
-  </text>
-
+  <!-- TITLE BAR                                                 -->
 
   <!-- ========================================================= -->
-  <!-- MAIN IDENTITY                                             -->
-  <!-- ========================================================= -->
 
-  <text x="600" y="204"
-        text-anchor="middle"
-        class="mono primary"
-        font-size="48"
-        font-weight="600"
-        letter-spacing="10"
-        opacity="0">
+<rect x="1" y="1"
+     width="1398"
+     height="58"
+     rx="10"
+     fill="#0D1011"/>
 
-    KYRO1012
+<line x1="1" y1="58"
+     x2="1399" y2="58"
+     class="border"/>
 
-    <animate
-      attributeName="opacity"
-      values="0;0;1"
-      keyTimes="0;0.42;0.55"
-      dur="3s"
-      fill="freeze"/>
-  </text>
+  <!-- Window buttons -->
 
+  <circle cx="28" cy="29" r="5" fill="#343A3B"/>
+  <circle cx="48" cy="29" r="5" fill="#343A3B"/>
+  <circle cx="68" cy="29" r="5" fill="#343A3B"/>
 
-  <!-- Accent line -->
+<text x="700" y="36"
+     text-anchor="middle"
+     class="mono secondary"
+     font-size="16">
+kyro@bazzite: ~ </text>
 
-  <line x1="350" y1="221" x2="850" y2="221"
-        stroke="#7CFFB2"
-        stroke-width="1"
-        opacity="0">
+  <!-- Online -->
 
-    <animate
-      attributeName="opacity"
-      values="0;0;0.8"
-      keyTimes="0;0.5;0.65"
-      dur="3s"
-      fill="freeze"/>
+<circle cx="1315" cy="29" r="4"
+       fill="#7CFFB2"
+       filter="url(#softGlow)"> <animate
+   attributeName="opacity"
+   values="1;0.35;1"
+   dur="2s"
+   repeatCount="indefinite"/> </circle>
 
-  </line>
-
-
-  <!-- Subtitle -->
-
-  <text x="600" y="249"
-        text-anchor="middle"
-        class="mono secondary"
-        font-size="12"
-        letter-spacing="2"
-        opacity="0">
-
-    GAME TECHNOLOGY  ·  LINUX  ·  SOFTWARE  ·  WORLDBUILDING
-
-    <animate
-      attributeName="opacity"
-      values="0;0;1"
-      keyTimes="0;0.58;0.72"
-      dur="3s"
-      fill="freeze"/>
-  </text>
-
+<text x="1330" y="35"
+     class="mono secondary"
+     font-size="13">
+ONLINE </text>
 
   <!-- ========================================================= -->
-  <!-- BOTTOM TERMINAL PROMPT                                    -->
+
+  <!-- BOOT                                                      -->
+
   <!-- ========================================================= -->
 
-  <line x1="55" y1="280" x2="1145" y2="280" class="line"/>
+<text x="65" y="102"
+     class="mono secondary"
+     font-size="15">
+$ ./profile --initialize </text>
 
-  <text x="55" y="308"
-        class="mono secondary"
-        font-size="12">
-    kyro@bazzite:~$
-  </text>
+<text x="65" y="131"
+     class="mono muted"
+     font-size="13">
+[ OK ] developer environment </text>
 
-  <g transform="translate(177 293)">
-    <rect width="9" height="18" rx="1" fill="#7CFFB2">
-      <animate
-        attributeName="opacity"
-        values="1;0;1"
-        dur="1.1s"
-        repeatCount="indefinite"/>
-    </rect>
+<text x="65" y="154"
+     class="mono muted"
+     font-size="13">
+[ OK ] project registry </text>
+
+<text x="65" y="177"
+     class="mono muted"
+     font-size="13">
+[ OK ] creative modules </text>
+
+  <!-- ========================================================= -->
+
+  <!-- IDENTITY                                                  -->
+
+  <!-- ========================================================= -->
+
+<text x="65" y="235"
+     class="title"
+     font-size="52"
+     letter-spacing="5">
+KYRO1012 </text>
+
+<line x1="65" y1="255"
+     x2="1335" y2="255"
+     class="accentStroke"
+     stroke-width="1"/>
+
+<text x="65" y="287"
+     class="mono secondary"
+     font-size="16"
+     letter-spacing="1">
+GAME TECHNOLOGY · LINUX · SOFTWARE · WORLDBUILDING </text>
+
+  <!-- ========================================================= -->
+
+  <!-- ABOUT                                                      -->
+
+  <!-- ========================================================= -->
+
+<text x="65" y="345"
+     class="mono accent"
+     font-size="18">
+~/about </text>
+
+<text x="65" y="380"
+     class="mono primary"
+     font-size="16">
+Computer Science undergraduate specializing in Game Technology. </text>
+
+<text x="65" y="407"
+     class="mono primary"
+     font-size="16">
+Interested in software engineering, game development, Linux </text>
+
+<text x="65" y="434"
+     class="mono primary"
+     font-size="16">
+and creative technology. </text>
+
+<text x="65" y="470"
+     class="mono secondary"
+     font-size="15">
+How does this work? </text>
+
+<text x="65" y="495"
+     class="mono secondary"
+     font-size="15">
+What can I build with it? </text>
+
+  <!-- ========================================================= -->
+
+  <!-- FOCUS                                                      -->
+
+  <!-- ========================================================= -->
+
+<text x="65" y="555"
+     class="mono accent"
+     font-size="18">
+~/focus </text>
+
+<text x="65" y="592"
+     class="mono primary"
+     font-size="15">
+GAME DEVELOPMENT </text>
+
+<text x="275" y="592"
+     class="mono secondary"
+     font-size="15">
+systems · AI · combat · world design </text>
+
+<text x="65" y="620"
+     class="mono primary"
+     font-size="15">
+LINUX </text>
+
+<text x="275" y="620"
+     class="mono secondary"
+     font-size="15">
+systems · open source · desktop · distributions </text>
+
+<text x="65" y="648"
+     class="mono primary"
+     font-size="15">
+SOFTWARE </text>
+
+<text x="275" y="648"
+     class="mono secondary"
+     font-size="15">
+C/C++ · Python · Java · developer tooling </text>
+
+<text x="65" y="676"
+     class="mono primary"
+     font-size="15">
+CREATIVE </text>
+
+<text x="275" y="676"
+     class="mono secondary"
+     font-size="15">
+worldbuilding · science fiction · interactive fiction </text>
+
+  <!-- ========================================================= -->
+
+  <!-- PROJECTS                                                   -->
+
+  <!-- ========================================================= -->
+
+<text x="65" y="735"
+     class="mono accent"
+     font-size="18">
+~/projects </text>
+
+<text x="65" y="772"
+     class="mono primary"
+     font-size="16">
+ValkOS </text>
+
+<text x="220" y="772"
+     class="mono secondary"
+     font-size="14">
+Linux distribution project </text>
+
+<text x="220" y="798"
+     class="mono muted"
+     font-size="13">
+approachable Arch-based experience · installation · UX </text>
+
+<text x="65" y="838"
+     class="mono primary"
+     font-size="16">
+Game Development </text>
+
+<text x="285" y="838"
+     class="mono secondary"
+     font-size="14">
+systemic gameplay & AI-driven interactions </text>
+
+<text x="285" y="864"
+     class="mono muted"
+     font-size="13">
+adaptive AI · emergent gameplay · combat · survival systems </text>
+
+<text x="65" y="904"
+     class="mono primary"
+     font-size="16">
+Aberration </text>
+
+<text x="220" y="904"
+     class="mono secondary"
+     font-size="14">
+speculative fiction · Flux · worldbuilding </text>
+
+  <!-- ========================================================= -->
+
+  <!-- ENVIRONMENT                                                -->
+
+  <!-- ========================================================= -->
+
+<text x="65" y="964"
+     class="mono accent"
+     font-size="18">
+~/environment </text>
+
+<text x="65" y="1000"
+     class="mono secondary"
+     font-size="14">
+OS </text>
+
+<text x="250" y="1000"
+     class="mono primary"
+     font-size="14">
+Bazzite </text>
+
+<text x="65" y="1026"
+     class="mono secondary"
+     font-size="14">
+DE </text>
+
+<text x="250" y="1026"
+     class="mono primary"
+     font-size="14">
+KDE Plasma </text>
+
+<text x="65" y="1052"
+     class="mono secondary"
+     font-size="14">
+SHELL </text>
+
+<text x="250" y="1052"
+     class="mono primary"
+     font-size="14">
+Bash · Zsh </text>
+
+<text x="65" y="1078"
+     class="mono secondary"
+     font-size="14">
+VIRTUALIZATION </text>
+
+<text x="250" y="1078"
+     class="mono primary"
+     font-size="14">
+QEMU </text>
+
+<text x="65" y="1104"
+     class="mono secondary"
+     font-size="14">
+GAME TECH </text>
+
+<text x="250" y="1104"
+     class="mono primary"
+     font-size="14">
+Unity · Godot </text>
+
+  <!-- ========================================================= -->
+
+  <!-- FOOTER PROMPT                                              -->
+
+  <!-- ========================================================= -->
+
+<line x1="65" y1="1140"
+     x2="1335" y2="1140"
+     class="border"/>
+
+<text x="65" y="1180"
+     class="mono secondary"
+     font-size="14">
+kyro@bazzite:~$ </text>
+
+  <g transform="translate(205 1163)">
+    <use href="#cursor"/>
   </g>
 
 </svg>
