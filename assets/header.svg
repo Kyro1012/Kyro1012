@@ -34,7 +34,7 @@
   <!-- ONLINE INDICATOR                                        -->
   <!-- ====================================================== -->
 
-  <circle cx="1315" cy="33"
+  <circle cx="1270" cy="33"
           r="5"
           fill="#7CFFB2">
 
@@ -46,7 +46,7 @@
 
   </circle>
 
-  <text x="1332" y="40"
+  <text x="1287" y="40"
         fill="#7CFFB2"
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
         font-size="17">
