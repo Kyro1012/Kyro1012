@@ -3,10 +3,8 @@
      height="710"
      viewBox="0 0 1400 710">
 
-  <!-- BACKGROUND BASE -->
-  <rect width="1400" height="710" fill="#090B0C"/>
-
   <!-- CONTINUOUS OUTER FRAME -->
+
   <line x1="2" y1="0"
         x2="2" y2="710"
         stroke="#2A3031"
@@ -34,7 +32,9 @@
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
         font-size="25"
         font-weight="600">
+
     ~/focus
+
     <animate attributeName="opacity"
              values="1;0.45;1"
              keyTimes="0;0.5;1"
@@ -46,6 +46,7 @@
   <line x1="75" y1="88"
         x2="815" y2="88"
         stroke="#222829"/>
+
 
   <text x="75" y="130"
         fill="#E1E5E3"
@@ -62,6 +63,7 @@
     Systems · AI · Combat · World Design
   </text>
 
+
   <text x="75" y="215"
         fill="#E1E5E3"
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
@@ -77,6 +79,7 @@
     Systems · Open Source · Desktop · Distributions
   </text>
 
+
   <text x="75" y="300"
         fill="#E1E5E3"
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
@@ -91,6 +94,7 @@
         font-size="18">
     C/C++ · Python · Java · Developer Tooling
   </text>
+
 
   <text x="75" y="385"
         fill="#E1E5E3"
@@ -124,7 +128,9 @@
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
         font-size="25"
         font-weight="600">
+
     ~/environment
+
     <animate attributeName="opacity"
              values="1;0.45;1"
              keyTimes="0;0.5;1"
@@ -136,6 +142,7 @@
   <line x1="890" y1="88"
         x2="1325" y2="88"
         stroke="#222829"/>
+
 
   <text x="890" y="145"
         fill="#737B78"
@@ -151,6 +158,7 @@
     Bazzite
   </text>
 
+
   <text x="890" y="195"
         fill="#737B78"
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
@@ -164,6 +172,7 @@
         font-size="18">
     KDE Plasma
   </text>
+
 
   <text x="890" y="245"
         fill="#737B78"
@@ -179,6 +188,7 @@
     Bash / Zsh
   </text>
 
+
   <text x="890" y="295"
         fill="#737B78"
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
@@ -192,6 +202,7 @@
         font-size="18">
     QEMU
   </text>
+
 
   <text x="890" y="345"
         fill="#737B78"
@@ -224,7 +235,9 @@
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
         font-size="25"
         font-weight="600">
+
     ~/projects
+
     <animate attributeName="opacity"
              values="1;0.45;1"
              keyTimes="0;0.5;1"
@@ -236,6 +249,7 @@
   <line x1="75" y1="533"
         x2="1325" y2="533"
         stroke="#222829"/>
+
 
   <text x="75" y="575"
         fill="#E1E5E3"
@@ -251,6 +265,7 @@
     Linux distribution development
   </text>
 
+
   <text x="75" y="615"
         fill="#E1E5E3"
         font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
@@ -264,6 +279,7 @@
         font-size="18">
     Systemic gameplay · AI · World Systems
   </text>
+
 
   <text x="75" y="655"
         fill="#E1E5E3"
@@ -280,9 +296,7 @@
   </text>
 
 
-  <!-- ====================================================== -->
-  <!-- BOTTOM FRAME CONNECTION                                -->
-  <!-- ====================================================== -->
+  <!-- BOTTOM CONNECTION -->
 
   <line x1="2" y1="709"
         x2="1398" y2="709"
