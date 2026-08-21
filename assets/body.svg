@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1400"
+     height="710"
+     viewBox="0 0 1400 710">
+
+  <rect width="1400" height="710" fill="#090B0C"/>
+
+  <!-- Continuous outer frame -->
+  <line x1="2" y1="0"
+        x2="2" y2="710"
+        stroke="#2A3031"
+        stroke-width="2"/>
+
+  <line x1="1398" y1="0"
+        x2="1398" y2="710"
+        stroke="#2A3031"
+        stroke-width="2"/>
+
+
+  <!-- FOCUS -->
+
+  <rect x="50" y="30"
+        width="790"
+        height="415"
+        rx="7"
+        fill="#0C0F10"
+        stroke="#2A3031"/>
+
+  <text x="75" y="70"
+        fill="#7CFFB2"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="25"
+        font-weight="600">
+    ~/focus
+  </text>
+
+  <line x1="75" y1="88"
+        x2="815" y2="88"
+        stroke="#222829"/>
+
+
+  <text x="75" y="130"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20"
+        font-weight="600">
+    GAME DEVELOPMENT
+  </text>
+
+  <text x="75" y="162"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Systems · AI · Combat · World Design
+  </text>
+
+
+  <text x="75" y="215"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20"
+        font-weight="600">
+    LINUX
+  </text>
+
+  <text x="75" y="247"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Systems · Open Source · Desktop · Distributions
+  </text>
+
+
+  <text x="75" y="300"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20"
+        font-weight="600">
+    SOFTWARE
+  </text>
+
+  <text x="75" y="332"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    C/C++ · Python · Java · Developer Tooling
+  </text>
+
+
+  <text x="75" y="385"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20"
+        font-weight="600">
+    CREATIVE
+  </text>
+
+  <text x="75" y="417"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Aberration · Speculative Fiction · Worldbuilding
+  </text>
+
+
+  <!-- ENVIRONMENT -->
+
+  <rect x="865" y="30"
+        width="485"
+        height="415"
+        rx="7"
+        fill="#0C0F10"
+        stroke="#2A3031"/>
+
+  <text x="890" y="70"
+        fill="#7CFFB2"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="25"
+        font-weight="600">
+    ~/environment
+  </text>
+
+  <line x1="890" y1="88"
+        x2="1325" y2="88"
+        stroke="#222829"/>
+
+
+  <text x="890" y="145"
+        fill="#737B78"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="17">
+    OS
+  </text>
+
+  <text x="1050" y="145"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Bazzite
+  </text>
+
+
+  <text x="890" y="195"
+        fill="#737B78"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="17">
+    DE
+  </text>
+
+  <text x="1050" y="195"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    KDE Plasma
+  </text>
+
+
+  <text x="890" y="245"
+        fill="#737B78"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="17">
+    SHELL
+  </text>
+
+  <text x="1050" y="245"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Bash / Zsh
+  </text>
+
+
+  <text x="890" y="295"
+        fill="#737B78"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="17">
+    VM
+  </text>
+
+  <text x="1050" y="295"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    QEMU
+  </text>
+
+
+  <text x="890" y="345"
+        fill="#737B78"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="17">
+    GAME
+  </text>
+
+  <text x="1050" y="345"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Unity / Godot
+  </text>
+
+
+  <!-- PROJECTS -->
+
+  <rect x="50" y="475"
+        width="1300"
+        height="195"
+        rx="7"
+        fill="#0C0F10"
+        stroke="#2A3031"/>
+
+  <text x="75" y="515"
+        fill="#7CFFB2"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="25"
+        font-weight="600">
+    ~/projects
+  </text>
+
+  <line x1="75" y1="533"
+        x2="1325" y2="533"
+        stroke="#222829"/>
+
+
+  <text x="75" y="575"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20">
+    ValkOS
+  </text>
+
+  <text x="300" y="575"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Linux distribution development
+  </text>
+
+
+  <text x="75" y="615"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20">
+    Game Development
+  </text>
+
+  <text x="300" y="615"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Systemic gameplay · AI · World Systems
+  </text>
+
+
+  <text x="75" y="655"
+        fill="#E1E5E3"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="20">
+    Aberration
+  </text>
+
+  <text x="300" y="655"
+        fill="#89918E"
+        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
+        font-size="18">
+    Speculative fiction · Worldbuilding
+  </text>
+
+
+  <!-- Bottom connection -->
+  <line x1="2" y1="709"
+        x2="1398" y2="709"
+        stroke="#2A3031"
+        stroke-width="2"/>
+
+</svg>
