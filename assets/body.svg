@@ -16,7 +16,7 @@
   <text x="95" y="318" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Distribution Development · Virtualization · Build Systems</text>
 
   <text x="75" y="378" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="20" font-weight="600">SOFTWARE</text>
-  <text x="95" y="412" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• C / C++ · Python · Java · TypeScript</text>
+  <text x="95" y="412" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• C / C++ · Python · Java</text>
   <text x="95" y="442" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• React · Node.js · Developer Tooling</text>
 
   <text x="75" y="502" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="20" font-weight="600">CREATIVE</text>
@@ -46,7 +46,7 @@
   <text x="1050" y="334" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Godot · Unity</text>
 
   <text x="890" y="382" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">LANG</text>
-  <text x="1050" y="382" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">C/C++ · Python · Java · TypeScript</text>
+  <text x="1050" y="382" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">C/C++ · Python · Java</text>
 
   <rect x="50" y="620" width="1300" height="330" rx="8" fill="#0C0D12" stroke="#2B233A"/>
   <text x="75" y="660" fill="#C084FC" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="25" font-weight="600">
