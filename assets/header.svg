@@ -1,218 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1400"
-     height="435"
-     viewBox="0 0 1400 435">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="470" viewBox="0 0 1400 470">
+  <rect x="2" y="2" width="1396" height="70" rx="12" fill="#0E0F14"/>
+  <line x1="2" y1="70" x2="1398" y2="70" stroke="#2B233A"/>
 
-  <!-- ====================================================== -->
-  <!-- TITLE BAR                                               -->
-  <!-- ====================================================== -->
+  <circle cx="30" cy="36" r="6" fill="#3A3047"/>
+  <circle cx="52" cy="36" r="6" fill="#3A3047"/>
+  <circle cx="74" cy="36" r="6" fill="#3A3047"/>
 
-  <rect x="2" y="2"
-        width="1396"
-        height="64"
-        rx="12"
-        fill="#0E1112"/>
+  <text x="700" y="44" text-anchor="middle" fill="#A79DBA" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="20">kyro@bazzite: ~</text>
 
-  <line x1="2" y1="64"
-        x2="1398" y2="64"
-        stroke="#2A3031"/>
-
-  <circle cx="30" cy="33" r="6" fill="#353B3C"/>
-  <circle cx="52" cy="33" r="6" fill="#353B3C"/>
-  <circle cx="74" cy="33" r="6" fill="#353B3C"/>
-
-  <text x="700" y="41"
-        text-anchor="middle"
-        fill="#9AA29F"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="20">
-    kyro@bazzite: ~
-  </text>
-
-
-  <!-- ====================================================== -->
-  <!-- ONLINE INDICATOR                                        -->
-  <!-- ====================================================== -->
-
-  <circle cx="1270" cy="33"
-          r="5"
-          fill="#7CFFB2">
-
-    <animate attributeName="opacity"
-             values="1;0.3;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
-
+  <circle cx="1268" cy="36" r="5" fill="#C084FC">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="1287" y="40"
-        fill="#7CFFB2"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="17">
-
+  <text x="1286" y="43" fill="#C084FC" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="17">
     ONLINE
-
-    <animate attributeName="opacity"
-             values="1;0.82;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
-
+    <animate attributeName="opacity" values="1;0.82;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
 
-
-  <!-- ====================================================== -->
-  <!-- IDENTITY                                                -->
-  <!-- ====================================================== -->
-
-  <!-- RED RGB CHANNEL -->
-
-  <text x="700" y="155"
-        text-anchor="middle"
-        fill="#FF3B5C"
-        opacity="0"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="72"
-        font-weight="700"
-        letter-spacing="9">
-
+  <text x="700" y="164" text-anchor="middle" fill="#FF5FA2" opacity="0" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="72" font-weight="700" letter-spacing="9">
     KYRO1012
-
-    <animate attributeName="opacity"
-             values="0;0;0;0.65;0;0;0.35;0"
-             keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
-    <animate attributeName="x"
-             values="700;700;700;694;700;700;696;700"
-             keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
-    <animate attributeName="y"
-             values="155;155;155;157;155;155;153;155"
-             keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
+    <animate attributeName="opacity" values="0;0;0;0.6;0;0;0.35;0" keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="700;700;700;694;700;700;696;700" keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="164;164;164;166;164;164;162;164" keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1" dur="5s" repeatCount="indefinite"/>
   </text>
 
-
-  <!-- BLUE RGB CHANNEL -->
-
-  <text x="700" y="155"
-        text-anchor="middle"
-        fill="#00E5FF"
-        opacity="0"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="72"
-        font-weight="700"
-        letter-spacing="9">
-
+  <text x="700" y="164" text-anchor="middle" fill="#7DD3FC" opacity="0" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="72" font-weight="700" letter-spacing="9">
     KYRO1012
-
-    <animate attributeName="opacity"
-             values="0;0;0;0.7;0;0;0.4;0"
-             keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
-    <animate attributeName="x"
-             values="700;700;700;707;700;700;705;700"
-             keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
-    <animate attributeName="y"
-             values="155;155;155;153;155;155;157;155"
-             keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
+    <animate attributeName="opacity" values="0;0;0;0.65;0;0;0.4;0" keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="700;700;700;707;700;700;705;700" keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="164;164;164;162;164;164;166;164" keyTimes="0;0.55;0.575;0.58;0.59;0.62;0.625;1" dur="5s" repeatCount="indefinite"/>
   </text>
 
-
-  <!-- MAIN IDENTITY -->
-
-  <text x="700" y="155"
-        text-anchor="middle"
-        fill="#7CFFB2"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="72"
-        font-weight="700"
-        letter-spacing="9">
-
+  <text x="700" y="164" text-anchor="middle" fill="#C084FC" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="72" font-weight="700" letter-spacing="9">
     KYRO1012
-
-    <animate attributeName="opacity"
-             values="1;1;0.8;1;1"
-             keyTimes="0;0.58;0.585;0.59;1"
-             dur="5s"
-             repeatCount="indefinite"/>
-
+    <animate attributeName="opacity" values="1;1;0.78;1;1" keyTimes="0;0.58;0.585;0.59;1" dur="5s" repeatCount="indefinite"/>
   </text>
 
+  <text x="700" y="204" text-anchor="middle" fill="#988CA9" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="22" letter-spacing="2">GAME TECHNOLOGY · LINUX · SOFTWARE · WORLDBUILDING</text>
 
-  <!-- ====================================================== -->
-  <!-- SUBTITLE                                                -->
-  <!-- ====================================================== -->
-
-  <text x="700" y="195"
-        text-anchor="middle"
-        fill="#89918E"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="22"
-        letter-spacing="2">
-    GAME TECHNOLOGY · LINUX · SOFTWARE · WORLDBUILDING
-  </text>
-
-
-  <!-- ====================================================== -->
-  <!-- ABOUT                                                    -->
-  <!-- ====================================================== -->
-
-  <rect x="50" y="235"
-        width="1300"
-        height="155"
-        rx="7"
-        fill="#0C0F10"
-        stroke="#2A3031"/>
-
-  <text x="75" y="272"
-        fill="#7CFFB2"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="25"
-        font-weight="600">
-
+  <rect x="50" y="244" width="1300" height="186" rx="8" fill="#0C0D12" stroke="#2B233A"/>
+  <text x="75" y="282" fill="#C084FC" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="25" font-weight="600">
     ~/about
-
-    <animate attributeName="opacity"
-             values="1;0.82;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
-
+    <animate attributeName="opacity" values="1;0.82;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
+  <line x1="75" y1="300" x2="1325" y2="300" stroke="#221C2D"/>
 
-  <line x1="75" y1="289"
-        x2="1325" y2="289"
-        stroke="#222829"/>
-
-
-  <text x="75" y="328"
-        fill="#E1E5E3"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="20">
-    Computer Science undergraduate specializing in Game Technology.
-  </text>
-
-  <text x="75" y="362"
-        fill="#9AA29F"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="19">
-    Software engineering · game development · Linux · creative technology
-  </text>
-
+  <text x="75" y="338" fill="#E3DEEF" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="20">B.Tech Computer Science undergraduate (2023-2027), specializing in Game Technology.</text>
+  <text x="75" y="372" fill="#B9AFCB" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="19">Building game systems, Linux internals workflows, and creative worlds through software.</text>
+  <text x="75" y="405" fill="#8F84A4" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="18">Focus areas: gameplay architecture · distribution engineering · tooling · narrative worldbuilding</text>
 </svg>

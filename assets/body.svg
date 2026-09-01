@@ -1,277 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1400"
-     height="710"
-     viewBox="0 0 1400 710">
-
-  <!-- ====================================================== -->
-  <!-- FOCUS                                                  -->
-  <!-- ====================================================== -->
-
-  <rect x="50" y="30"
-        width="790" height="415"
-        rx="7"
-        fill="#0C0F10"
-        stroke="#2A3031"/>
-
-  <text x="75" y="70"
-        fill="#7CFFB2"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="25"
-        font-weight="600">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+  <rect x="50" y="30" width="790" height="560" rx="8" fill="#0C0D12" stroke="#2B233A"/>
+  <text x="75" y="70" fill="#C084FC" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="25" font-weight="600">
     ~/focus
-
-    <animate attributeName="opacity"
-             values="1;0.45;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
+  <line x1="75" y1="88" x2="815" y2="88" stroke="#221C2D"/>
 
-  <line x1="75" y1="88"
-        x2="815" y2="88"
-        stroke="#222829"/>
+  <text x="75" y="130" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="20" font-weight="600">GAME DEVELOPMENT</text>
+  <text x="95" y="164" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Godot · Gameplay Systems · AI / Enemy Systems</text>
+  <text x="95" y="194" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Combat · 2.5D Isometric Games · World Design</text>
 
+  <text x="75" y="254" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="20" font-weight="600">LINUX</text>
+  <text x="95" y="288" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Linux Desktop · Linux Systems · Open Source</text>
+  <text x="95" y="318" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Distribution Development · Virtualization · Build Systems</text>
 
-  <text x="75" y="130"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20"
-        font-weight="600">
-    GAME DEVELOPMENT
-  </text>
+  <text x="75" y="378" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="20" font-weight="600">SOFTWARE</text>
+  <text x="95" y="412" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• C / C++ · Python · Java</text>
+  <text x="95" y="442" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• React · Node.js · Developer Tooling</text>
 
-  <text x="75" y="162"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Systems · AI · Combat · World Design
-  </text>
+  <text x="75" y="502" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="20" font-weight="600">CREATIVE</text>
+  <text x="95" y="536" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Aberration · Speculative Fiction · Worldbuilding</text>
+  <text x="95" y="566" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">• Music / Guitar</text>
 
-
-  <text x="75" y="215"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20"
-        font-weight="600">
-    LINUX
-  </text>
-
-  <text x="75" y="247"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Systems · Open Source · Desktop · Distributions
-  </text>
-
-
-  <text x="75" y="300"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20"
-        font-weight="600">
-    SOFTWARE
-  </text>
-
-  <text x="75" y="332"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    C/C++ · Python · Java · Developer Tooling
-  </text>
-
-
-  <text x="75" y="385"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20"
-        font-weight="600">
-    CREATIVE
-  </text>
-
-  <text x="75" y="417"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Aberration · Speculative Fiction · Worldbuilding
-  </text>
-
-
-  <!-- ====================================================== -->
-  <!-- ENVIRONMENT                                             -->
-  <!-- ====================================================== -->
-
-  <rect x="865" y="30"
-        width="485" height="415"
-        rx="7"
-        fill="#0C0F10"
-        stroke="#2A3031"/>
-
-  <text x="890" y="70"
-        fill="#7CFFB2"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="25"
-        font-weight="600">
+  <rect x="865" y="30" width="485" height="560" rx="8" fill="#0C0D12" stroke="#2B233A"/>
+  <text x="890" y="70" fill="#C084FC" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="25" font-weight="600">
     ~/environment
-
-    <animate attributeName="opacity"
-             values="1;0.45;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
+  <line x1="890" y1="88" x2="1325" y2="88" stroke="#221C2D"/>
 
-  <line x1="890" y1="88"
-        x2="1325" y2="88"
-        stroke="#222829"/>
+  <text x="890" y="142" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">OS</text>
+  <text x="1050" y="142" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Bazzite</text>
 
+  <text x="890" y="190" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">DESKTOP</text>
+  <text x="1050" y="190" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">KDE Plasma</text>
 
-  <text x="890" y="145"
-        fill="#737B78"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="17">
-    OS
-  </text>
+  <text x="890" y="238" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">SHELL</text>
+  <text x="1050" y="238" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Bash / Zsh</text>
 
-  <text x="1050" y="145"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Bazzite
-  </text>
+  <text x="890" y="286" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">TOOLS</text>
+  <text x="1050" y="286" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Git · GitHub · Docker · QEMU</text>
 
+  <text x="890" y="334" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">GAME</text>
+  <text x="1050" y="334" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Godot · Unity</text>
 
-  <text x="890" y="195"
-        fill="#737B78"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="17">
-    DE
-  </text>
+  <text x="890" y="382" fill="#857A99" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">LANG</text>
+  <text x="1050" y="382" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">C/C++ · Python · Java</text>
 
-  <text x="1050" y="195"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    KDE Plasma
-  </text>
-
-
-  <text x="890" y="245"
-        fill="#737B78"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="17">
-    SHELL
-  </text>
-
-  <text x="1050" y="245"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Bash / Zsh
-  </text>
-
-
-  <text x="890" y="295"
-        fill="#737B78"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="17">
-    VM
-  </text>
-
-  <text x="1050" y="295"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    QEMU
-  </text>
-
-
-  <text x="890" y="345"
-        fill="#737B78"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="17">
-    GAME
-  </text>
-
-  <text x="1050" y="345"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Unity / Godot
-  </text>
-
-
-  <!-- ====================================================== -->
-  <!-- PROJECTS                                                -->
-  <!-- ====================================================== -->
-
-  <rect x="50" y="475"
-        width="1300" height="205"
-        rx="7"
-        fill="#0C0F10"
-        stroke="#2A3031"/>
-
-  <text x="75" y="515"
-        fill="#7CFFB2"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="25"
-        font-weight="600">
+  <rect x="50" y="620" width="1300" height="330" rx="8" fill="#0C0D12" stroke="#2B233A"/>
+  <text x="75" y="660" fill="#C084FC" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="25" font-weight="600">
     ~/projects
-
-    <animate attributeName="opacity"
-             values="1;0.45;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
+  <line x1="75" y1="678" x2="1325" y2="678" stroke="#221C2D"/>
 
-  <line x1="75" y1="533"
-        x2="1325" y2="533"
-        stroke="#222829"/>
+  <text x="75" y="724" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="22" font-weight="600">VALKOS</text>
+  <text x="290" y="724" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Linux distribution development</text>
+  <text x="290" y="750" fill="#8F84A4" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">Boot systems · Build systems · Linux internals</text>
 
+  <text x="75" y="798" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="22" font-weight="600">AFTERLIGHT</text>
+  <text x="290" y="798" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">2.5D atmospheric action roguelike</text>
+  <text x="290" y="824" fill="#8F84A4" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">Godot · Gameplay systems · AI · Combat · World systems</text>
 
-  <text x="75" y="575"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20">
-    ValkOS
-  </text>
-
-  <text x="300" y="575"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Linux distribution development
-  </text>
-
-
-  <text x="75" y="615"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20">
-    Game Development
-  </text>
-
-  <text x="300" y="615"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Systemic gameplay · AI · World Systems
-  </text>
-
-
-  <text x="75" y="655"
-        fill="#E1E5E3"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="20">
-    Aberration
-  </text>
-
-  <text x="300" y="655"
-        fill="#89918E"
-        font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace"
-        font-size="18">
-    Speculative fiction · Worldbuilding
-  </text>
-
+  <text x="75" y="872" fill="#E3DEEF" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="22" font-weight="600">ABERRATION</text>
+  <text x="290" y="872" fill="#B9AFCB" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="18">Speculative fiction</text>
+  <text x="290" y="898" fill="#8F84A4" font-family="JetBrains Mono, Fira Code, DejaVu Sans Mono, monospace" font-size="17">Worldbuilding · Narrative · Lore</text>
 </svg>

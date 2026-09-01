@@ -1,97 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1400"
-     height="190"
-     viewBox="0 0 1400 190">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="230" viewBox="0 0 1400 230">
+  <rect x="50" y="30" width="1300" height="170" rx="8" fill="#0C0D12" stroke="#2B233A"/>
 
-  <rect x="50" y="30"
-        width="1300"
-        height="105"
-        rx="7"
-        fill="#0C0F10"
-        stroke="#2A3031"/>
-
-  <text x="75" y="70"
-        fill="#7CFFB2"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="25"
-        font-weight="600">
+  <text x="75" y="70" fill="#C084FC" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="25" font-weight="600">
     ~/status
-
-    <animate attributeName="opacity"
-             values="1;0.45;1"
-             keyTimes="0;0.5;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
 
-  <line x1="75" y1="88"
-        x2="1325" y2="88"
-        stroke="#222829"/>
+  <line x1="75" y1="88" x2="1325" y2="88" stroke="#221C2D"/>
 
-  <circle cx="80" cy="113"
-          r="5"
-          fill="#7CFFB2">
-    <animate attributeName="opacity"
-             values="1;0.3;1"
-             keyTimes="0;0.5;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
+  <circle cx="80" cy="114" r="5" fill="#C084FC">
+    <animate attributeName="opacity" values="1;0.3;1" keyTimes="0;0.5;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="98" y="120"
-        fill="#7CFFB2"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="18"
-        font-weight="600">
+  <text x="98" y="121" fill="#C084FC" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="18" font-weight="600">
     ONLINE
-
-    <animate attributeName="opacity"
-             values="1;0.45;1"
-             keyTimes="0;0.5;1"
-             dur="2s"
-             begin="-0.5s"
-             repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2s" begin="-0.4s" repeatCount="indefinite"/>
   </text>
 
-  <text x="255" y="120"
-        fill="#89918E"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="18">
-    building :: ValkOS
-  </text>
+  <text x="255" y="121" fill="#B9AFCB" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="18">building :: ValkOS</text>
+  <text x="560" y="121" fill="#B9AFCB" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="18">developing :: AfterLight</text>
+  <text x="905" y="121" fill="#B9AFCB" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="18">writing :: Aberration</text>
 
-  <text x="545" y="120"
-        fill="#59615F"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="18">
-    exploring :: Linux · Game Systems · AI
-  </text>
+  <text x="255" y="154" fill="#8F84A4" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="18">exploring :: Linux · Game Systems · AI</text>
 
-  <!-- TERMINAL PROMPT -->
+  <text x="75" y="188" fill="#8D81A3" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace" font-size="17">kyro@bazzite:~$</text>
 
-  <text x="75" y="170"
-        fill="#89918E"
-        font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',monospace"
-        font-size="17">
-    kyro@bazzite:~$
-  </text>
-
-  <!-- Blinking cursor -->
-
-  <rect x="245"
-        y="152"
-        width="11"
-        height="22"
-        rx="1"
-        fill="#7CFFB2">
-
-    <animate attributeName="opacity"
-             values="1;0;1"
-             dur="1.05s"
-             repeatCount="indefinite"/>
-
+  <rect x="245" y="170" width="11" height="22" rx="1" fill="#C084FC">
+    <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
   </rect>
-
 </svg>
